@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*-------------------------------------------Navbar--------------------------------------*/
+.navbar {
+    background: #0b181e !important;
+    height: 10vh !important;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-nav {
+    background: #0b181e !important;
+}
+.navbar-toggler{
+    mix-blend-mode:  color-burn;
+}
+.active{
+    color: #f9b860 !important;
+}
+/*-------------------------------------------Header--------------------------------------*/
+#header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.wixstatic.com/media/cec2b6_9a4beabee3d1475f9edfc6513bfae123~mv2.jpg/v1/fill/w_1903,h_680,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/cec2b6_9a4beabee3d1475f9edfc6513bfae123~mv2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+/*-------------------------------------------Info--------------------------------------*/
+#info{
+    height: auto;
+    width: 100%;
+    background: #0b181e;
+}
+.boxes{
+    height: 50vh;
+}
+.boxes-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.wixstatic.com/media/cec2b6_de0b8a8ac0e647df97ca32230db90096~mv2_d_1920_1538_s_2.jpg/v1/fill/w_952,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/cec2b6_de0b8a8ac0e647df97ca32230db90096~mv2_d_1920_1538_s_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.boxes-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.wixstatic.com/media/cec2b6_df214863b27a447598cc1e66cc6e34b8~mv2_d_1920_1280_s_2.jpg/v1/fill/w_952,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/cec2b6_df214863b27a447598cc1e66cc6e34b8~mv2_d_1920_1280_s_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.boxes-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.wixstatic.com/media/cec2b6_c13e5f55e2104a0baee1f88d1f2d0a15~mv2_d_1920_1428_s_2.jpg/v1/fill/w_952,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/cec2b6_c13e5f55e2104a0baee1f88d1f2d0a15~mv2_d_1920_1428_s_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.boxes-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.wixstatic.com/media/cec2b6_04ee21a3823242e5af4a08dcbc4132bf~mv2_d_1920_1280_s_2.jpg/v1/fill/w_952,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/cec2b6_04ee21a3823242e5af4a08dcbc4132bf~mv2_d_1920_1280_s_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+/*--------------------------------------------------FAQ----------------------------------------------*/
+#faq{
+    height: auto;
+    width: 100%;
+    background: #000;
+}
+.faq-btn{
+    background: #f9b860 !important; 
+}
+.faq-s-row{
+    width: 50%;
+}
+
+
+/*--------------------------------------------------Info-Footer----------------------------------------------*/
+#InfoFooter{
+    height: auto;
+    width: 100%;
+    background: #000 !important;
+}
+
+
+@media (max-width: 576px) {
+    .faq-s-row{
+        padding: 0 4rem;
+        margin: auto;
+        width: 100% !important;
+    }
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        background: #0b181e !important;
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    }
+
+    
+}
+@media (min-width: 768px) {
+    
+    /* .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    } */
+
+}
+@media (max-width: 992px) {
+    .faq-s-row{
+        /* padding: 0 4rem; */
+        margin: auto;
+        width: 75%;
+    }
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    }
+
+}

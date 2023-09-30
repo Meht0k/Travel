@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*-------------------------------------------Navbar--------------------------------------*/
+.navbar {
+    background: #0b181e !important;
+    height: 10vh !important;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.navbar-nav{
+    background: #0b181e !important;
+}
+.navbar-toggler{
+    mix-blend-mode:  color-burn;
+}
+
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.active{
+    color: #f9b860 !important;
+}
+/*-------------------------------------------Dates Header--------------------------------------*/
+#datesHeader {
+    height: auto;
+    background: #000 !important;
+    width: 100%;
+}
+.datesHeader{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    position: relative;
+}
+.dates-overlay{
+    background: #000000 !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s ease;
+}
+.dates-overlay p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.dates-card:hover .dates-overlay{
+    opacity: 1;
+}
+.dates-btn{
+    background: #f9b860 !important;
+}
+
+
+
+/*-------------------------------------------Dates Notify--------------------------------------*/
+#notify{
+    height: 20vh;
+    background: #0b181e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*-------------------------------------------Dates Footer--------------------------------------*/
+#datesFooter{
+    height: auto;
+    background: #000;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+/*    
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        background: #0b181e !important;
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    } */
+
+    
+}
+@media (min-width: 768px) {
+    .faq-s-row{
+        margin: auto;
+        width: 75%;
+    }
+    /* .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    } */
+
+}
+@media (max-width: 992px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        left: 0;
+        padding: 2rem;
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+
+
